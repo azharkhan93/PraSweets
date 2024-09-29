@@ -25,11 +25,11 @@ export default function RootLayout({
           src="https://www.googletagmanager.com/gtag/js?id=G-ZH2M9MM88P"
           strategy="afterInteractive"
         />
-        <Script id="gtagscript">{`window.dataLayer = window.dataLayer || [];
+        {/* <Script id="gtagscript">{`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-ZH2M9MM88P');`}</Script>
+  gtag('config', 'G-ZH2M9MM88P');`}</Script> */}
       </head>
       <body className={inter.className}>
         <div className="w-[100vw] flex justify-center bg-[#F6EBE3] overflow-x-hidden">

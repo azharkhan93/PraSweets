@@ -1,12 +1,18 @@
 import { TfiClose } from "react-icons/tfi";
 import Link from "next/link";
-import { theme } from "@/app/theme";
+import { theme } from "@/theme";
+
+interface OffCanvasMenuProps {
+  hideMenu: () => void; // Function to hide the menu
+  cssProperty: React.CSSProperties; // CSS properties for the child div
+  cssPropertyParent: React.CSSProperties; 
+}
 
 export default function OffCanvasMenu({
   hideMenu,
   cssProperty,
   cssPropertyParent,
-}: any) {
+}: OffCanvasMenuProps) {
   return (
     <div
       style={cssPropertyParent}
@@ -20,24 +26,25 @@ export default function OffCanvasMenu({
           <TfiClose
             onClick={hideMenu}
             color={theme.colors.primaryColor}
-            className=" hover:animate-spin cursor-pointer w-[30px] h-[30px]"
+            className="hover:animate-spin cursor-pointer w-[30px] h-[30px]"
           />
         </div>
         <div className="w-full py-20 flex flex-col justify-start items-start gap-10 md:gap-10 text-xl md:text-3xl px-4">
-  <Link href="/" className="hover:scale-[105%] hover:shadow-xl">
-    Home
-  </Link>
-  <Link href="/blog" className="hover:scale-[105%] hover:shadow-xl">
-    About
-  </Link>
-  <Link href="/blog" className="hover:scale-[105%] hover:shadow-xl">
-    About
-  </Link>
-  <Link href="/blog" className="hover:scale-[105%] hover:shadow-xl">
-    About
-  </Link>
-</div>
+          <Link href="/" className="hover:scale-[105%] hover:shadow-xl">
+            Home
+          </Link>
+          <Link href="/blog" className="hover:scale-[105%] hover:shadow-xl">
+            About
+          </Link>
+          <Link href="/blog" className="hover:scale-[105%] hover:shadow-xl">
+            About
+          </Link>
+          <Link href="/blog" className="hover:scale-[105%] hover:shadow-xl">
+            About
+          </Link>
+        </div>
       </div>
     </div>
   );
 }
+

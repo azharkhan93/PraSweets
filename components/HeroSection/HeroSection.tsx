@@ -1,9 +1,9 @@
-import Image from "next/image";
+
 import { CustomLinkButton } from "..";
 import MobileMenu from "../MobileMenu/mobileMenu";
 import Link from "next/link";
 
-export const Hero: React.FC = () => {
+export const HeroSection : React.FC = () => {
   return (
     <div
       className="w-full h-[100vh] md:h-[100vh] flex flex-col justify-center items-center gap-10 relative overflow-hidden"
@@ -21,7 +21,7 @@ export const Hero: React.FC = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black/70 bg-opacity-50 z-10" />
 
       <div className="absolute top-0 left-0 w-full h-[10%] flex justify-center items-center px-[5%] z-30">
-        <div className="hidden md:flex justify-center items-center gap-20 text-secondaryColor text-[20px] w-full">
+        <div className="hidden md:flex justify-center items-center gap-20 text-primaryColor text-[20px] w-full">
           <Link className="hover:scale-[110%]" href={"/"}>
             Home
           </Link>

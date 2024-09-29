@@ -1,4 +1,5 @@
-import { FormSectionData } from "@/app/constants";
+
+import { FormSectionData } from "@/constants";
 import { Form } from "../Form";
 import Image from "next/image";
 

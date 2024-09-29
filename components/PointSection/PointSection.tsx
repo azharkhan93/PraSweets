@@ -1,5 +1,6 @@
+import { PointSectionData } from "@/constants";
 import { PointBox } from "./components";
-import { PointSectionData } from "@/app/constants";
+
 
 export const PointSection = () => {
   return (

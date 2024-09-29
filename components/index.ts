@@ -9,6 +9,5 @@ export * from "./CustomButton";
 export * from "./CustomLinkButton";
 export * from "./PointSection";
 export * from "./FormSection";
-export * from "./Homepage";
 export * from "./ArticleCard";
-export * from "./WordpressArticle";
+

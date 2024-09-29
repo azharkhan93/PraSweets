@@ -1,7 +1,8 @@
+import { VillaFeaturesData } from "@/constants";
+import { theme } from "@/theme";
 import React from "react";
 import { MdOutlineVilla } from "react-icons/md";
-import { VillaFeaturesData } from "@/app/constants";
-import { theme } from "@/app/theme";
+
 
 export const VillaFeatures = () => {
   return (

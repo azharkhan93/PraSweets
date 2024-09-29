@@ -1,5 +1,6 @@
+import { MultiBoxData } from "@/constants";
 import { Box } from "./components";
-import { MultiBoxData } from "@/app/constants";
+
 
 export const MultiBoxSection = () => {
   return (

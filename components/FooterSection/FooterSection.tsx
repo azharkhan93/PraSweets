@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { FooterData } from "@/app/constants";
+import { FooterData } from "@/constants";
+
 
 export const FooterSection = () => {
   return (

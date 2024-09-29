@@ -1,5 +1,6 @@
+import { FeaturedVillaData } from "@/constants";
 import { PictureCard } from "./components";
-import { FeaturedVillaData } from "@/app/constants";
+
 
 export const FeaturedSection = () => {
   return (

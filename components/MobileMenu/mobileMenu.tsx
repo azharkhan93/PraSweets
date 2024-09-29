@@ -2,7 +2,8 @@
 import { useState } from "react";
 import OffCanvasMenu from "./OffCanvasMenu";
 import { CgMenuLeft } from "react-icons/cg";
-import { theme } from "@/app/theme";
+import { theme } from "@/theme";
+
 
 export default function MobileMenu() {
   const [visible, setVisible] = useState(false);

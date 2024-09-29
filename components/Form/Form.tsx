@@ -5,7 +5,7 @@ import { ImSpinner } from "react-icons/im";
 import * as Yup from "yup";
 import { useState } from "react";
 import { FaCheck } from "react-icons/fa";
-import { theme } from "@/app/theme";
+// import { theme } from "@/app/theme";
 
 const FormSchema = Yup.object().shape({
   name: Yup.string().required("Required"),
@@ -115,14 +115,14 @@ export const Form = () => {
               )}
               {isSubmitting ? (
                 <ImSpinner
-                  color={theme.colors.primaryColor}
+                  // color={theme.colors.primaryColor}
                   className="animate-spin"
                   size={30}
                 />
               ) : null}
               {dataSent ? (
                 <FaCheck
-                  color={theme.colors.primaryColor}
+                  // color={theme.colors.primaryColor}
                   className="animate-pulse"
                   size={30}
                 />

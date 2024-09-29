@@ -2,7 +2,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { useEffect } from "react";
-import Script from "next/script";
+// import Script from "next/script";
 import { revealAnimation } from "@/utils/gsap";
 import { theme } from "@/theme";
 
@@ -21,10 +21,10 @@ export default function RootLayout({
       <head key={1}>
         <title>Studio By Adore</title>
         <meta name="theme-color" content={theme.colors.primaryColor} />
-        <Script
+        {/* <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-ZH2M9MM88P"
           strategy="afterInteractive"
-        />
+        /> */}
         {/* <Script id="gtagscript">{`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());

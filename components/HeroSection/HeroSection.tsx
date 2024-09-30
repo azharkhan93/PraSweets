@@ -15,7 +15,7 @@ export const HeroSection : React.FC = () => {
         muted
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
-        <source src="/assets/images/bg2.mp4" type="video/mp4" />
+        <source src="/assets/images/home3.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-black/70 bg-opacity-50 z-10" />

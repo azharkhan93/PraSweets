@@ -22,7 +22,7 @@ export const AboutUsSection: React.FC = () => {
       </div>
       <div className="w-full flex items-center justify-between flex-row md:flex-row py-11 md:py-24  px-0 md:px-32 gap-6 md:gap-20 flex-wrap md:flex-nowrap" >
         {cardData.map((card: CardData, index: number) => (
-          <div key={index} className="bg-secondaryColor flex items-center justify-center rounded-md flex-col gap-6 py-2 w-[155px] md:w-[300px] md:h-[250px] flex-wrap">
+          <div key={index} className="bg-secondaryColor flex items-center justify-center rounded-md flex-col gap-3 md:gap-6 py-2 w-[155px] md:w-[300px] md:h-[250px] flex-wrap px-1">
             <div
               className="bg-primaryColor flex items-center justify-center rounded-full py-4 px-4"
               style={{ boxShadow: '0 4px 6px rgba(0, 0, 0, 0.8)' }}

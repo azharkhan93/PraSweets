@@ -18,7 +18,7 @@ export const HeroSection : React.FC = () => {
         <source src="/assets/images/home3.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="absolute top-0 left-0 w-full h-full bg-black/70 bg-opacity-50 z-10" />
+      <div className="absolute top-0 left-0 w-full h-full bg-black/50 bg-opacity-50 z-10" />
 
       <div className="absolute top-0 left-0 w-full h-[10%] flex justify-center items-center px-[5%] z-30">
         <div className="hidden md:flex justify-center items-center gap-20 text-primaryColor text-[20px] w-full">
@@ -47,11 +47,11 @@ export const HeroSection : React.FC = () => {
             To The World Of Troubles Here we Will Try Welcome To Welcome To The
             World Of Troubles Here we Will Try
           </p>
-          <div className="w-full flex justify-center">
+          <div className="w-full flex justify-center rounded-md">
             <CustomLinkButton
               label="Enquire Now"
               href="form-section"
-              classes="bg-primaryColor"
+              classes="bg-secondaryColor"
               border="noBorder"
             />
           </div>

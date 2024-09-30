@@ -4,5 +4,6 @@ export * from "./MultiBoxSection";
 export * from "./FullWidthBar";
 export * from "./CustomButton";
 export * from "./CustomLinkButton";
+export * from "./FooterSection"
 
 

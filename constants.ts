@@ -1,3 +1,37 @@
+import { FaShippingFast, FaShieldAlt, FaThumbsUp, FaBroom } from 'react-icons/fa';
+import { IconType } from 'react-icons';
+
+export type CardData = {
+  icon: IconType;
+  title: string;
+  description: string;
+};
+
+export const cardData: CardData[] = [
+  {
+    icon: FaShippingFast,
+    title: 'Free Delivery',
+    description: 'We provide free delivery on all orders.',
+  },
+  {
+    icon: FaShieldAlt,
+    title: 'Safe & Secured',
+    description: 'Your safety and security is our priority.',
+  },
+  {
+    icon: FaThumbsUp,
+    title: 'Guaranteed',
+    description: 'Satisfaction guaranteed with every service.',
+  },
+  {
+    icon: FaBroom,
+    title: 'Clean & Hygienic',
+    description: 'We maintain the highest hygiene standards.',
+  },
+];
+
+
+
 export const VillaFeaturesData = [
   {
     heading: "Unparalleled Design",
@@ -97,24 +131,24 @@ export const FormSectionData = [
 
 export const FooterData = [
   {
-    heading: "Property Type",
-    line1: "4, 5 and 6 Bedrooms",
-    line2: "Residences & Duplexes",
+    heading: "About Company",
+    line1: "we are the one of the renoweed and weell know name in the industry over the past years",
+    // line2: " know name in the industry over the past years",
   },
-  // {
-  //   heading: "Contact",
-  //   line1: "Towqeer Gilkar",
-  //   line2: "+971 55 766 2990",
-  // },
   {
-    heading: "Handover",
-    line1: "Q2",
-    line2: "2024",
+    heading: "Contact",
+    line1: "adore123@gmail.com",
+    line2: "+91 7006123456",
+  },
+  {
+    heading: "Navigation",
+    line1: "Home",
+    line2: "About",
   },
   {
     heading: "Location",
-    line1: "District 11, Meydan",
-    line2: "4, 5, and 6 Luxury Villa Community",
+    line1: "District 11, jawahar Nagar, Srinagar",
+    line2: "jammmu And Kashmir, India",
   },
 ];
 

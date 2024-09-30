@@ -9,15 +9,16 @@ export const HeroSection : React.FC = () => {
       className="w-full h-[100vh] md:h-[100vh] flex flex-col justify-center items-center gap-10 relative overflow-hidden"
       
     >
-      <video
-        autoPlay
-        loop
-        muted
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
-      >
-        <source src="/assets/images/home3.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+     <video
+  autoPlay
+  loop
+  muted
+  playsInline 
+  className="absolute top-0 left-0 w-full h-full object-cover z-0"
+>
+  <source src="/assets/images/home3.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
       <div className="absolute top-0 left-0 w-full h-full bg-black/50 bg-opacity-50 z-10" />
 
       <div className="absolute top-0 left-0 w-full h-[10%] flex justify-center items-center px-[5%] z-30">

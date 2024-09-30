@@ -8,20 +8,21 @@ export type CardData = {
 };
 
 export const cardData: CardData[] = [
-  {
-    icon: FaShippingFast,
-    title: 'Free Delivery',
-    description: 'We provide free delivery on all orders.',
-  },
+  
   {
     icon: FaShieldAlt,
     title: 'Safe & Secured',
-    description: 'Your safety and security is our priority.',
+    description: 'Your safety and security is our priority. We use',
   },
   {
     icon: FaThumbsUp,
     title: 'Guaranteed',
     description: 'Satisfaction guaranteed with every service.',
+  },
+  {
+    icon: FaShippingFast,
+    title: 'Free Delivery',
+    description: 'We provide free delivery on all orders thrughtout state.',
   },
   {
     icon: FaBroom,

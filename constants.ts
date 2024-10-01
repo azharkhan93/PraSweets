@@ -4,30 +4,29 @@ import { IconType } from 'react-icons';
 export type CardData = {
   icon: IconType;
   title: string;
-  description: string;
 };
 
 export const cardData: CardData[] = [
   
   {
     icon: FaShieldAlt,
-    title: 'Safe & Secured',
-    description: 'Your safety and security is our priority. We use',
+    title: 'Quality Products',
+  
   },
   {
     icon: FaThumbsUp,
-    title: 'Guaranteed',
-    description: 'Satisfaction guaranteed with every service.',
+    title: 'Qualified',
+    
   },
   {
     icon: FaShippingFast,
-    title: 'Free Delivery',
-    description: 'We provide free delivery on all orders thrughtout state.',
+    title: 'High Standars',
+    
   },
   {
     icon: FaBroom,
     title: 'Clean & Hygienic',
-    description: 'We maintain the highest hygiene standards.',
+    
   },
 ];
 

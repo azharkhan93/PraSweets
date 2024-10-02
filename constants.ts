@@ -31,6 +31,37 @@ export const cardData: CardData[] = [
 ];
 
 
+// constants.ts
+
+export interface Testimonial {
+  name: string;
+  username: string;
+  testimonial: string;
+  imageUrl: string; // Added to manage different profile images
+}
+
+export const testimonials: Testimonial[] = [
+  {
+    name: 'Tom Hardy',
+    username: '@thom.hardy',
+    testimonial: 'To get social media testimonials like these, keep your customers engaged with your social media accounts by posting regularly yourself',
+    imageUrl: '/images/person/1.jpg', // Add image URL
+  },
+  {
+    name: 'Jane Doe',
+    username: '@jane.doe',
+    testimonial: 'Great service! Will definitely recommend to others.',
+    imageUrl: '/images/person/2.jpg', // Add image URL
+  },
+  {
+    name: 'John Smith',
+    username: '@john.smith',
+    testimonial: 'A fantastic experience from start to finish!',
+    imageUrl: '/images/person/3.jpg', // Add image URL
+  },
+];
+
+
 
 export const VillaFeaturesData = [
   {

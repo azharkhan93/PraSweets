@@ -26,7 +26,7 @@ export const AboutUsSection: React.FC = () => {
       <div className="container w-full text-center flex flex-col md:flex-row justify-center items-center gap-11">
         <div className="relative hidden md:block">
           <Image
-            src="/assets/images/aristabg.jpg"
+            src="/assets/images/img45.webp"
             alt="Description of the image"
             width={360}
             height={300}
@@ -45,7 +45,7 @@ export const AboutUsSection: React.FC = () => {
           </p>
           <div className="relative">
             <Image
-              src="/assets/images/aristabg.jpg"
+              src="/assets/images/ai32.jpg"
               alt="Description of the image"
               width={400}
               height={390}

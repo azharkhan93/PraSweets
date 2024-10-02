@@ -3,6 +3,7 @@ import { useState } from "react";
 import OffCanvasMenu from "./OffCanvasMenu";
 import { CgMenuLeft } from "react-icons/cg";
 import { theme } from "@/theme";
+import Image from "next/image";
 
 
 export default function MobileMenu() {
@@ -12,14 +13,23 @@ export default function MobileMenu() {
   };
 
   return (
-    <div className="">
+    <div className=" flex items-center justify-between w-full px-2" >
+      
+   
+   <Image 
+     src="/assets/images/adoreLogo.png" 
+     alt="Logo"
+     width={130}   
+     height={50}   
+   />
       <div className="cursor-pointer">
         <CgMenuLeft
           onClick={() => handleClick(true)}
-          size={40}
+          size={45}
           color={theme.colors.secondaryColor}
         />
       </div>
+      
       <OffCanvasMenu
         hideMenu={() => handleClick(false)}
         cssProperty={{

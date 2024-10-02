@@ -1,4 +1,4 @@
-import {  AboutUsSection, ClientReviews, CtaSection, FooterSection, HeroSection } from "@/components";
+import {  AboutUsSection, ClientReviews, CtaSection, FooterSection, HeroSection, OurAgenda } from "@/components";
 
 
 export default function Home() {
@@ -6,6 +6,7 @@ export default function Home() {
     
     <>
     <HeroSection />
+    <OurAgenda />
     <AboutUsSection />
 
     <ClientReviews />

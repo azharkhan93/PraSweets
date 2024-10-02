@@ -7,5 +7,5 @@ export * from "./CustomLinkButton";
 export * from "./FooterSection"
 export * from "./ClientReviews"
 export * from "./CtaSection"
-
+export * from "./OurAgenda"
 

@@ -8,4 +8,6 @@ export * from "./FooterSection"
 export * from "./ClientReviews"
 export * from "./CtaSection"
 export * from "./OurAgenda"
+export * from "./ServicesHome"
+export * from "./WhyUsSection"
 

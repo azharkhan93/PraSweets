@@ -61,6 +61,52 @@ export const testimonials: Testimonial[] = [
   },
 ];
 
+export const servicesData = [
+  {
+    id: 1,
+    name: 'Nails',
+    imageUrl:
+      '/assets/images/ai32.jpg',
+  },
+  {
+    id: 2,
+    name: 'Bleach',
+    imageUrl:
+      '/assets/images/ai32.jpg',
+  },
+  {
+    id: 2,
+    name: 'Nails Art',
+    imageUrl:
+      '/assets/images/ai32.jpg',
+  },
+  {
+    id: 2,
+    name: 'Nails',
+    imageUrl:
+      '/assets/images/ai32.jpg',
+  },
+  {
+    id: 2,
+    name: 'Nails',
+    imageUrl:
+      '/assets/images/ai32.jpg',
+  },
+  {
+    id: 2,
+    name: 'Nails',
+    imageUrl:
+      '/assets/images/ai32.jpg',
+  },
+  {
+    id: 2,
+    name: 'Nails',
+    imageUrl:
+      '/assets/images/ai32.jpg',
+  },
+];
+
+
 
 
 export const VillaFeaturesData = [

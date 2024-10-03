@@ -19,8 +19,8 @@ export default function MobileMenu() {
    <Image 
      src="/assets/images/adoreLogo.png" 
      alt="Logo"
-     width={130}   
-     height={50}   
+     width={150}   
+     height={80}   
    />
       <div className="cursor-pointer">
         <CgMenuLeft

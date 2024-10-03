@@ -18,8 +18,8 @@ export const HeroSection: React.FC = () => {
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-black/40 bg-opacity-50 z-10" />
 
-      <div className="absolute top-0 left-0 w-full  flex justify-between items-center  z-30">
-        <div className="">
+      <div className="absolute top-0 left-0 w-full flex justify-between items-center  z-30">
+        <div className=" hidden md:flex">
           <Image
             src="/assets/images/adoreLogo.png"
             alt="Logo"

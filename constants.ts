@@ -231,5 +231,38 @@ export const ArticleTestData = [
   },
 ];
 
+export const testimonialsData = [
+  {
+    name: 'Mr Krishna',
+    image: '/assets/images/ai32.jpg', 
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel!',
+  },
+  {
+    name: 'Mr Krishna',
+    image: '/assets/images/ai32.jpg',
+    text: 'Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error.',
+  },
+  {
+    name: 'Mr Krishna',
+    image: '/assets/images/ai32.jpg', 
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti.',
+  },
+  {
+    name: 'Mr Krishna',
+    image: '/assets/images/ai32.jpg',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti.',
+  },
+  {
+    name: 'Mr Krishna',
+    image: '/assets/images/ai32.jpg', 
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta quibusdam sunt.',
+  },
+  {
+    name: 'Mr Krishna',
+    image: '/assets/images/ai32.jpg',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!',
+  },
+];
+
 
 

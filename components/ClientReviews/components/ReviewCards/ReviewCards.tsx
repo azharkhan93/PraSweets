@@ -1,49 +1,50 @@
-
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/image";
-import { Testimonial } from "@/constants";
+import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa"; 
 
-type TestimonialCardProps = {
-  testimonial: Testimonial;
+interface TestimonialCardProps {
+  image: string;
+  name: string;
+  text: string;
 }
 
 export const ReviewCards: React.FC<TestimonialCardProps> = ({
-  testimonial,
+  image,
+  name,
+  text,
 }) => {
   return (
-    <div className="flex items-center justify-center px-5 py-5">
-      <div className="w-full max-w-xl px-5 pt-5 pb-10 mx-auto text-primaryColor bg-secondaryColor rounded-lg shadow-lg dark:bg-gray-800 dark:text-gray-50">
-        <div className="w-full pt-1 pb-5 mx-auto -mt-16 text-center">
-          <a href="#" className="relative block">
+    <div className="w-[350px] md:w-[400px]">
+      <div
+        className="w-full flex flex-col items-start gap-5 rounded-lg bg-white border border-gray-200 text-gray-800 font-light py-2 px-3"
+        style={{ borderBottom: "3px solid red", borderTop: "3px solid red" }}
+      >
+        <div className="w-full flex items-center py-3">
+          <div className="overflow-hidden rounded-full w-20 h-18 bg-gray-50 border border-gray-200">
             <Image
-              alt="profile"
-              src={testimonial.imageUrl}
-              className="mx-auto object-cover rounded-full"
-              width={80}
-              height={80}
+              src={image}
+              alt={name}
+              width={40}
+              height={40}
+              className="rounded-full w-20 h-20"
             />
-          </a>
-        </div>
-        <div className="w-full mb-10">
-          <div className="h-3 text-3xl leading-tight text-left text-primaryColor">
-            “
           </div>
-          <p className="px-5 text-sm text-center text-text-primaryColor  dark:text-primaryColor">
-            {testimonial.testimonial}
-          </p>
-          <div className="h-3 -mt-3 text-3xl leading-tight text-right text-primaryColor ">
-            ”
+          <div className="flex items-center flex-col px-2 gap-2">
+            <h6 className="font-bold text-sm uppercase text-gray-600">{name}</h6>
+            <h6 className="text-sm text-gray-600">Regular client</h6>
           </div>
         </div>
         <div className="w-full">
-          <p className="font-bold text-center text-primaryColor text-md">
-            {testimonial.name}
-          </p>
-          <p className="text-xs text-center text-primaryColor dark:text-gray-300">
-            {testimonial.username}
+          <p className="text-sm leading-noneflex items-center">
+            <FaQuoteLeft className="text-lg leading-none italic font-bold text-gray-400 mr-1 mb-3" />
+            {text}
+            <FaQuoteRight className="text-lg leading-none italic font-bold text-gray-400 ml-[280px] md:ml-[340px]" />
           </p>
         </div>
       </div>
     </div>
   );
 };
+
+

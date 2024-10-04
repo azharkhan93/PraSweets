@@ -25,7 +25,7 @@ body {
   margin: 0;
   padding: 0;
    /* background-color: #B6A382;  */
-   background-color: #FFFBE6; 
+   background-color: white; 
 }
 .borderRed {
   border: 1px solid red;
@@ -163,5 +163,17 @@ body {
 
 .blogParaFotn {
   font-family: blogParaFont;
+}
+
+
+.swiper {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid green; */
+}
+
+.swiper .swiper-pagination-bullet-active {
+  transform: scale(2);
+  transform-origin: center;
 }
 

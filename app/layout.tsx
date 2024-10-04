@@ -32,9 +32,8 @@ export default function RootLayout({
   gtag('config', 'G-ZH2M9MM88P');`}</Script> */}
       </head>
       <body className={inter.className}>
-        <div className="w-[100vw] flex justify-center bg-primaryColor overflow-x-hidden">
+       
           <div className="w-[100%] ">{children}</div>
-        </div>
       </body>
     </html>
   );

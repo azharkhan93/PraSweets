@@ -1,5 +1,6 @@
 import {
 
+  ClientReviews,
   FooterSection,
   FormSection,
   HeroSection,
@@ -11,6 +12,7 @@ export default function Home() {
     <>
       <HeroSection />
       <FormSection />
+      <ClientReviews />
       {/* <ServicesHome />
       <WhyUsSection />
       <OurAgenda />

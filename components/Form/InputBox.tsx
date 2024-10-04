@@ -1,5 +1,5 @@
-import { usePathname } from "next/navigation";
-import { ChangeEventHandler } from "react";
+
+import { ChangeEventHandler, ReactNode } from "react";
 
 type InputBoxProps = {
   label: string;
@@ -9,8 +9,9 @@ type InputBoxProps = {
   handleChange: ChangeEventHandler<HTMLInputElement>;
   value: string | number;
   errorBox: boolean;
-  errorText: any;
+  errorText: string | ReactNode;
 };
+
 export const InputBox: React.FC<InputBoxProps> = ({
   type,
   label,
@@ -21,7 +22,7 @@ export const InputBox: React.FC<InputBoxProps> = ({
   errorBox,
   errorText,
 }) => {
-  const pathname = usePathname();
+ 
   return (
     <div className="flex flex-col items-start justify-center gap-2  p-2 rounded-lg z-20 w-full">
       <div className="flex flex-row justify-between  w-full">
@@ -51,3 +52,4 @@ export const InputBox: React.FC<InputBoxProps> = ({
     </div>
   );
 };
+

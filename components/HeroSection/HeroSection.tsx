@@ -13,18 +13,20 @@ export const HeroSection: React.FC = () => {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       >
-        <source src="/assets/images/home3.mp4" type="video/mp4" />
+        <source src="/assets/images/diwali.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-black/40 bg-opacity-50 z-10" />
 
-      <div className="absolute top-0 left-0 w-full flex justify-between items-center  z-30">
-        <div className=" hidden md:flex">
+      <div className="absolute top-0 left-0 w-full flex justify-between items-center  z-30 ">
+        <div className=" hidden md:flex" 
+        // style={{border: "4px solid red"}}
+        >
           <Image
-            src="/assets/images/adoreLogo.png"
+            src="/assets/images/logo3.png"
             alt="Logo"
-            width={130}
-            height={50}
+            width={170}
+            height={100}
           />
         </div>
 

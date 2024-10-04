@@ -1,24 +1,22 @@
 import {
-  AboutUsSection,
-  ClientReviews,
-  CtaSection,
+
   FooterSection,
+  FormSection,
   HeroSection,
-  OurAgenda,
-  ServicesHome,
-  WhyUsSection,
+  
 } from "@/components";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <ServicesHome />
+      <FormSection />
+      {/* <ServicesHome />
       <WhyUsSection />
       <OurAgenda />
       <AboutUsSection />
       <ClientReviews />
-      <CtaSection />
+      <CtaSection /> */}
       <FooterSection />
     </>
   );

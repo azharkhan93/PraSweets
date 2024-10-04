@@ -10,4 +10,6 @@ export * from "./CtaSection"
 export * from "./OurAgenda"
 export * from "./ServicesHome"
 export * from "./WhyUsSection"
+export * from "./Form"
+export * from "./FormSection"
 

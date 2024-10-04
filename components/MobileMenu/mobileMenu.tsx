@@ -16,12 +16,12 @@ export default function MobileMenu() {
     <div className=" flex items-center justify-between w-full px-2" >
       
    
-   <Image 
-     src="/assets/images/adoreLogo.png" 
-     alt="Logo"
-     width={150}   
-     height={80}   
-   />
+      <Image
+            src="/assets/images/logo3.png"
+            alt="Logo"
+            width={140}
+            height={100}
+          />
       <div className="cursor-pointer">
         <CgMenuLeft
           onClick={() => handleClick(true)}

@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="hide-scrollbar">
       <head key={1}>
-        <title>Studio By Adore</title>
+        <title>PraSweets - Sweets</title>
         <meta name="theme-color" content={theme.colors.primaryColor} />
         {/* <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-ZH2M9MM88P"

@@ -45,19 +45,19 @@ export const testimonials: Testimonial[] = [
     name: 'Tom Hardy',
     username: '@thom.hardy',
     testimonial: 'To get social media testimonials like these, keep your customers engaged with your social media accounts by posting regularly yourself',
-    imageUrl: '/images/person/1.jpg', // Add image URL
+    imageUrl: '/images/person/1.jpg',
   },
   {
     name: 'Jane Doe',
     username: '@jane.doe',
     testimonial: 'Great service! Will definitely recommend to others.',
-    imageUrl: '/images/person/2.jpg', // Add image URL
+    imageUrl: '/images/person/2.jpg',
   },
   {
     name: 'John Smith',
     username: '@john.smith',
     testimonial: 'A fantastic experience from start to finish!',
-    imageUrl: '/images/person/3.jpg', // Add image URL
+    imageUrl: '/images/person/3.jpg',
   },
 ];
 
@@ -128,43 +128,7 @@ export const VillaFeaturesData = [
   },
 ];
 
-export const FeaturedVillaData = [
-  {
-    image: "/assets/images/HiltonHuzhouNanxun.jpg",
-    hotelName: "Hilton Huzhou Nanxun, Huzhou",
-    hotelPlace: "Hotel / China / 2023",
-  },
-  {
-    image: "/assets/images/IndigoHangzhou.jpg",
-    hotelName: "Indigo Tianmushan, Hangzhou",
-    hotelPlace: "Hotel / China / 2023",
-  },
-  {
-    image: "/assets/images/HyattRegencyHIA.jpg",
-    hotelName: "Hyatt Regency HIA, Hangzhou",
-    hotelPlace: "Hotel / China / 2023",
-  },
-  {
-    image: "/assets/images/FourSeasonsGym.jpg",
-    hotelName: "Four Seasons Gym, Singapore",
-    hotelPlace: "Health & Wellness / Singapore / 2022",
-  },
-  {
-    image: "/assets/images/JwMarriotXian.jpg",
-    hotelName: "JW Marriott Hotel, Xi’an",
-    hotelPlace: "Hotel / China / 2023",
-  },
-  {
-    image: "/assets/images/vVillasThailand.jpg",
-    hotelName: "V Villas Hua Hin, Thailand",
-    hotelPlace: "Resort / Beach / Waterside",
-  },
-  {
-    image: "/assets/images/ConradBaliIndonesia.jpg",
-    hotelName: "Conrad Bali, Indonesia",
-    hotelPlace: "Resort / Beach/ Waterside / Cultural",
-  },
-];
+
 
 export const MultiBoxData = [
   {
@@ -201,9 +165,9 @@ export const PointSectionData = [
 ];
 
 export const FormSectionData = [
-  { bedroom: "4 Bedroom", bua: "6,572 BUA" },
-  { bedroom: "5 Bedroom", bua: "8,036 BUA" },
-  { bedroom: "6 Bedroom", bua: "15,392 BUA" },
+  { bedroom: "Phone:", bua: "91 669969060" },
+  { bedroom: "Email", bua: "ajkkjdjhs@gmail.com" },
+  { bedroom: "Location", bua: "street 15, chennai India" },
 ];
 
 export const FooterData = [
@@ -214,8 +178,8 @@ export const FooterData = [
   },
   {
     heading: "Contact",
-    line1: "adore123@gmail.com",
-    line2: "+91 7006123456",
+    line1: "jdkjhdjh123@gmail.com",
+    line2: "+91 8898978r8",
   },
   {
     heading: "Navigation",
@@ -224,8 +188,8 @@ export const FooterData = [
   },
   {
     heading: "Location",
-    line1: "District 11, jawahar Nagar, Srinagar",
-    line2: "jammmu And Kashmir, India",
+    line1: "District 11, Chennai, India",
+    line2: "kldkljkdkjkd, India",
   },
 ];
 
@@ -266,3 +230,6 @@ export const ArticleTestData = [
     author: "imran",
   },
 ];
+
+
+

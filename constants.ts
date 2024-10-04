@@ -266,3 +266,45 @@ export const testimonialsData = [
 
 
 
+export type Product = {
+  id: number;
+  title: string;
+  image: string;
+}
+
+export const productData: Product[] = [
+  {
+    id: 1,
+    title: "Sweets",
+    image: "/assets/images/ai32.jpg",
+  },
+  {
+    id: 2,
+    title: "Cupcakes",
+    image: "/assets/images/ai32.jpg",
+  },
+  {
+    id: 3,
+    title: "Cookies",
+    image: "/assets/images/ai32.jpg",
+  },
+  {
+    id: 4,
+    title: "Donuts",
+    image: "/assets/images/ai32.jpg",
+  },
+  {
+    id: 4,
+    title: "Donuts",
+    image: "/assets/images/ai32.jpg",
+  },
+  {
+    id: 4,
+    title: "Donuts",
+    image: "/assets/images/ai32.jpg",
+  },
+];
+
+
+
+

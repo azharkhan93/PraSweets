@@ -12,4 +12,5 @@ export * from "./ServicesHome"
 export * from "./WhyUsSection"
 export * from "./Form"
 export * from "./FormSection"
+export * from './OurPicks'
 

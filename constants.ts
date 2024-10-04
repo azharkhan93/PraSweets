@@ -31,13 +31,12 @@ export const cardData: CardData[] = [
 ];
 
 
-// constants.ts
 
 export interface Testimonial {
   name: string;
   username: string;
   testimonial: string;
-  imageUrl: string; // Added to manage different profile images
+  imageUrl: string; 
 }
 
 export const testimonials: Testimonial[] = [
@@ -109,60 +108,12 @@ export const servicesData = [
 
 
 
-export const VillaFeaturesData = [
-  {
-    heading: "Unparalleled Design",
-    para: "Immerse yourself in ultra-luxury with our meticulously designed villas, featuring exquisite architecture author HBA Architects.",
-  },
-  {
-    heading: "Spacious Layouts",
-    para: "Choose from spacious 4, 5 and 6 bedroom layouts, designed to accommodate your lifestyle and preferences.",
-  },
-  {
-    heading: "Premium Amenities",
-    para: "Indulge in the finest amenities and finishes, curated to elevate your living experience to new heights.",
-  },
-  {
-    heading: "Prime Location",
-    para: "Enjoy the convenience of living just a 15-minute drive away from Downtown Dubai, surrounded author the vibrant energy of the city.",
-  },
-];
 
 
 
-export const MultiBoxData = [
-  {
-    heading: "Limited Availability",
-    para: "Seize this exclusive opportunity to own a prestigious villa in Meydan. Express your interest now tosecure your place before the official launch, as availability is extremely limited.",
-  },
-  {
-    heading: "Launch Date",
-    para: "Be part of this extraordinary journey as we unveil our luxury villa development in mid of February 2024.",
-  },
-  {
-    heading: "Initial Launch Prices",
-    para: "Starting from AED 13.5 million onwards, our villas offer unparalleled value for the discerning few who seek only the best.",
-  },
-];
 
-export const PointSectionData = [
-  {
-    heading: "Schedule Your Private Walkthrough",
-    para: " Dive into the world of luxury living with aprivate walkthrough of our premium villas. Contact us today to schedule your exclusive tour and experience the epitome of elegance and refinement.",
-  },
-  {
-    heading: "Discover Luxury Redefined",
-    para: "Elevate your lifestyle with our unparalleled villa development, where every aspect is designed to surpass your expectations. From exquisite architecture to unmatched amenities, indulge in a life of luxury like never before.",
-  },
-  {
-    heading: "Invest in Distinction",
-    para: "Owning a villa in ourprestigious development isn't just about acquiring property; it's about investing in a lifestyle of distinction and refinement. Join an elite community of individuals who appreciate the finer things in life and make Meydan their home.",
-  },
-  {
-    heading: "Secure Your Future",
-    para: "With limited availability and high demand, now is the time to secure your future in Meydan's most sought-after address. Don't miss out on this once-in-a-lifetime opportunity to own a piece of luxury real estate in one of Dubai's most prestigious locations.",
-  },
-];
+
+
 
 export const FormSectionData = [
   { bedroom: "Phone:", bua: "91 669969060" },
@@ -174,7 +125,7 @@ export const FooterData = [
   {
     heading: "About Company",
     line1: "we are the one of the renoweed and weell know name in the industry over the past years",
-    // line2: " know name in the industry over the past years",
+    
   },
   {
     heading: "Contact",

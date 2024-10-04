@@ -6,9 +6,9 @@ import { FooterData } from "@/constants";
 export const FooterSection = () => {
   return (
     <footer className="bg-secondaryColor text-white flex flex-col gap-5 md:gap-10 py-10 reveal reveal-from-bottom">
-      <div className="flex items-center justify-center" style={{opacity: "0"}}>
+      <div className="flex items-center justify-center" >
         <Image
-          src="/assets/images/arista-logo.png"
+          src="/assets/images/logo3.png"
           alt="Logo"
           width={170}
           height={120}

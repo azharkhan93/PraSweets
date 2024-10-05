@@ -1,34 +1,5 @@
-import { FaShippingFast, FaShieldAlt, FaThumbsUp, FaBroom } from 'react-icons/fa';
-import { IconType } from 'react-icons';
 
-export type CardData = {
-  icon: IconType;
-  title: string;
-};
 
-export const cardData: CardData[] = [
-  
-  {
-    icon: FaShieldAlt,
-    title: 'Quality Products',
-  
-  },
-  {
-    icon: FaThumbsUp,
-    title: 'Qualified',
-    
-  },
-  {
-    icon: FaShippingFast,
-    title: 'High Standars',
-    
-  },
-  {
-    icon: FaBroom,
-    title: 'Clean & Hygienic',
-    
-  },
-];
 
 
 
@@ -60,50 +31,7 @@ export const testimonials: Testimonial[] = [
   },
 ];
 
-export const servicesData = [
-  {
-    id: 1,
-    name: 'Nails',
-    imageUrl:
-      '/assets/images/ai32.jpg',
-  },
-  {
-    id: 2,
-    name: 'Bleach',
-    imageUrl:
-      '/assets/images/ai32.jpg',
-  },
-  {
-    id: 2,
-    name: 'Nails Art',
-    imageUrl:
-      '/assets/images/ai32.jpg',
-  },
-  {
-    id: 2,
-    name: 'Nails',
-    imageUrl:
-      '/assets/images/ai32.jpg',
-  },
-  {
-    id: 2,
-    name: 'Nails',
-    imageUrl:
-      '/assets/images/ai32.jpg',
-  },
-  {
-    id: 2,
-    name: 'Nails',
-    imageUrl:
-      '/assets/images/ai32.jpg',
-  },
-  {
-    id: 2,
-    name: 'Nails',
-    imageUrl:
-      '/assets/images/ai32.jpg',
-  },
-];
+
 
 
 

@@ -20,7 +20,6 @@ export const HeroSection: React.FC = () => {
 
       <div className="absolute top-0 left-0 w-full flex justify-between items-center  z-30 ">
         <div className=" hidden md:flex" 
-        // style={{border: "4px solid red"}}
         >
           <Image
             src="/assets/images/logo3.png"
@@ -32,7 +31,6 @@ export const HeroSection: React.FC = () => {
 
         <div
           className="hidden md:flex justify-center items-center md:h-[100px]  gap-20 text-primaryColor text-[20px] w-full "
-          // style={{ border: "3px solid green" }}
         >
           <Link className="hover:scale-[110%]" href={"/"}>
             Home

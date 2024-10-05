@@ -19,12 +19,11 @@
   font-style: normal;
 }
 
-body {
+html,body {
   box-sizing: border-box;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-   /* background-color: #B6A382;  */
    background-color: white; 
 }
 .borderRed {
@@ -156,14 +155,6 @@ body {
   font-style: italic;
 }
 
-.blogHeadingFont {
-  font-family: blogHeadingFont;
-  font-weight: 15px;
-}
-
-.blogParaFotn {
-  font-family: blogParaFont;
-}
 
 
 .swiper {

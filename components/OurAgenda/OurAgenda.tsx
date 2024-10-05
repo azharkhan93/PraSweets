@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { CustomLinkButton } from "../CustomLinkButton";
 
 export const OurAgenda = () => {
   return (
@@ -59,12 +60,14 @@ export const OurAgenda = () => {
               brand. Secure a consistent brand image with a domain name that
               matches your business.
             </p>
-            <a
-              href=""
-              className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-secondaryColor hover:bg-opacity-90"
-            >
-              Get Started
-            </a>
+            <div className="w-full flex justify-center rounded-md">
+            <CustomLinkButton
+              label="Enquire Now"
+              href="form-section"
+              classes="bg-secondaryColor"
+              border="noBorder"
+            />
+          </div>
           </div>
         </div>
       </div>

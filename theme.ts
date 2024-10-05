@@ -1,6 +1,5 @@
 export const theme = {
   colors: {
-    // Primary: Orange and Orange Shades
     primaryColor: "#FFFBE6",
     secondaryColor: "#B6A382",
     thirdColor: "#FCC21B",

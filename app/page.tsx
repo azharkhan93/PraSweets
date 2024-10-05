@@ -1,12 +1,10 @@
 import {
-
   ClientReviews,
   FooterSection,
   FormSection,
   HeroSection,
   OurAgenda,
   OurPicks,
-  
 } from "@/components";
 
 export default function Home() {
@@ -17,12 +15,6 @@ export default function Home() {
       <FormSection />
       <ClientReviews />
       <OurAgenda />
-      {/* <ServicesHome />
-      <WhyUsSection />
-      <OurAgenda />
-      <AboutUsSection />
-      <ClientReviews />
-      <CtaSection /> */}
       <FooterSection />
     </>
   );

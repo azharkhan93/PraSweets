@@ -1,9 +1,6 @@
 
 
-
-
-
-export interface Testimonial {
+export type Testimonial = {
   name: string;
   username: string;
   testimonial: string;

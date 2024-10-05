@@ -35,7 +35,7 @@ export const HeroSection: React.FC = () => {
           <Link className="hover:scale-[110%]" href={"/"}>
             Home
           </Link>
-          <Link className="hover:scale-[110%]" href={"/blog"}>
+          <Link className="hover:scale-[110%]" href={"/about"}>
             About
           </Link>
           <Link className="hover:scale-[110%]" href={"/"}>

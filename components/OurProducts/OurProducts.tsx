@@ -3,7 +3,7 @@ import { ProdCards } from "./components/ProdCards";
 
 export const OurProducts: React.FC = () => {
   return (
-    <div className="w-full bg-gray-50 flex items-center justify-center py-5">
+    <div className="w-full bg-white flex items-center justify-center py-5">
       <div className="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-20 text-gray-800">
         <div className="text-center flex flex-col items-center py-5 gap-5">
           <h1 className="text-xl md:text-4xl font-bold text-gray-600 w-full">

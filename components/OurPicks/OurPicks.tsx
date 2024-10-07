@@ -4,7 +4,7 @@ import { ProductCards } from "./ProductCards";
 
 export const OurPicks = () => {
   return (
-    <div className=" w-full flex items-center justify-center flex-row md:flex-col flex-wrap gap-6 py-10 ">
+    <div className=" w-full bg-white flex items-center justify-center flex-row md:flex-col flex-wrap gap-6 py-10 ">
       <div className="flex justify-center items-start md:items-center text-heading font-bold flex-col gap-4 w-full">
         <h1 className="text-secondaryColor text-start md:text-center text-heading">
           Why PraSweets?

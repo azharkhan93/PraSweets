@@ -1,11 +1,9 @@
 "use client";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { useEffect } from "react";
 import { revealAnimation } from "@/utils/gsap";
 import { theme } from "@/theme";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -21,9 +19,9 @@ export default function RootLayout({
         <title>PraSweets - Sweets</title>
         <meta name="theme-color" content={theme.colors.primaryColor} />
       </head>
-      <body className={inter.className}>
+      <body>
        
-          <div className="w-[100%] ">{children}</div>
+          {children}
       </body>
     </html>
   );

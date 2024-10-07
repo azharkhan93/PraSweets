@@ -8,8 +8,9 @@ export const theme = {
     customGreen: '#032600',
   },
   font: {
-    paragraph: "18px",
-    subHeading: "28px",
-    heading: "36px",
+    paragraph: "19px",
+    subHeading: "22px",
+    heading: "28px",
+    heroheading: "40px"
   },
 };

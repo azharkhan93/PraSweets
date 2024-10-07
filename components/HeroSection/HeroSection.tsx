@@ -18,9 +18,8 @@ export const HeroSection: React.FC = () => {
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-black/40 bg-opacity-50 z-10" />
 
-      <div className="absolute top-0 left-0 w-full flex justify-between items-center  z-30 py-1 ">
-        <div className=" hidden md:flex" 
-        >
+      <div className="absolute top-0 left-0 w-full flex justify-between items-center z-30 py-1 ">
+        <div className="hidden md:flex">
           <Image
             src="/assets/images/logo3.png"
             alt="Logo"
@@ -29,9 +28,7 @@ export const HeroSection: React.FC = () => {
           />
         </div>
 
-        <div
-          className="hidden md:flex justify-center items-center md:h-[100px]  gap-20 text-primaryColor text-[20px] w-full "
-        >
+        <div className="hidden md:flex justify-center items-center md:h-[100px] gap-20 text-primaryColor text-[20px] w-full">
           <Link className="hover:scale-[110%]" href={"/"}>
             Home
           </Link>
@@ -47,15 +44,14 @@ export const HeroSection: React.FC = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col justify-center items-center z-20 py-11">
-        <div className="w-full flex flex-col justify-end items-center gap-10 reveal reveal reveal-from-top border-red-950 ">
-          <h1 className=" leading-relaxed text-[27px] md:text-[35px] text-secondaryColor text-center w-full md:w-[900px] reveal reveal-from-bottom ">
-            Welcome To The World Of Troubles Here we Will Try Welcome To
+      <div className="w-full flex flex-col justify-center items-center z-20 py-10">
+        <div className="w-full flex flex-col justify-end items-center gap-10 reveal reveal-from-top">
+          <h1 className=" text-heading md:text-heroheading leading-relaxed text-secondaryColor text-start md:text-center w-full md:w-[950px] reveal reveal-from-bottom px-1">
+          Indulge in Sweet Delights Experience Flavor & Joy in Every Bite!
           </h1>
-          <p className=" text-[16px] md:text-[18px] text-secondaryColor text-center w-full md:w-[610px] leading-relaxed">
-            Welcome To The World Of Troubles Here we Will Try Welcome To Welcome
-            To The World Of Troubles Here we Will Try Welcome To Welcome To The
-            World Of Troubles Here we Will Try
+          <p className="text-paragraph text-secondaryColor text-start md:text-center w-full md:w-[610px] px-1">
+            Discover the finest selection of handmade sweets, crafted with love
+            and care to tantalize your taste buds. Perfect for every occasion!
           </p>
           <div className="w-full flex justify-center rounded-md">
             <CustomLinkButton
@@ -70,3 +66,4 @@ export const HeroSection: React.FC = () => {
     </div>
   );
 };
+

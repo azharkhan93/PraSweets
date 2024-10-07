@@ -3,7 +3,7 @@ import { valuesData } from "@/constants";
 
 export const OurValues = () => {
   return (
-    <div className="flex flex-col items-center px-4 py-10 w-full">
+    <div className="flex flex-col items-center px-4 py-10 w-full bg-white">
       <div className="flex justify-center items-start md:items-center text-heading font-bold flex-col gap-4 w-full">
         <h1 className="text-secondaryColor text-start md:text-center text-heading">
           Why PraSweets?

@@ -46,10 +46,10 @@ export const HeroSection: React.FC = () => {
 
       <div className="w-full flex flex-col justify-center items-center z-20 py-10">
         <div className="w-full flex flex-col justify-end items-center gap-10 reveal reveal-from-top">
-          <h1 className="text-heading md:text-heroheading leading-relaxed text-white text-center w-full md:w-[950px] reveal reveal-from-bottom px-1">
+          <h1 className="text-heading md:text-heroheading leading-relaxed text-white text-start md:text-center w-full md:w-[950px] reveal reveal-from-bottom px-3">
             Indulge in Sweet Delights Experience Flavor & Joy in Every Bite!
           </h1>
-          <p className="text-paragraph text-white text-center w-full md:w-[610px] px-1">
+          <p className="text-paragraph text-white text-start md:text-center w-full md:w-[610px] px-3">
             Discover the finest selection of handmade sweets, crafted with love
             and care to tantalize your taste buds. Perfect for every occasion!
           </p>

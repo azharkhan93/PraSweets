@@ -8,10 +8,11 @@ export const OurValues = () => {
         <h1 className="text-secondaryColor text-start md:text-center text-heading">
           Why PraSweets?
         </h1>
-        
-        <p className="text-paragraph text-start md:text-center text-secondaryColor md:w-[600px]">xwx
-      At PraSweets, we are passionate about crafting delicious, high-quality sweets that satisfy your cravings and bring joy to every occasion. Our selection is made from the finest ingredients,
-  
+
+        <p className="text-paragraph text-start md:text-center text-secondaryColor md:w-[600px]">
+          At PraSweets, we are passionate about crafting delicious, high-quality
+          sweets that satisfy your cravings and bring joy to every occasion. Our
+          selection is made from the finest ingredients,
         </p>
       </div>
 
@@ -31,7 +32,9 @@ export const OurValues = () => {
             <h3 className=" text-heading  mt-6 sm:mt-10 text-secondaryColor">
               {value.title}
             </h3>
-            <p className=" text-paragraph mt-4 text-secondaryColor">{value.description}</p>
+            <p className=" text-paragraph mt-4 text-secondaryColor">
+              {value.description}
+            </p>
           </div>
         ))}
       </div>

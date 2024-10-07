@@ -16,7 +16,7 @@ export const OurProducts: React.FC = () => {
         </p>
       </div>
        
-        <h1 className="text-heading text-secondaryColor"></h1>
+        <h1 className=" text-subHeading md:text-heading text-secondaryColor bg-black w-[200px] text-center rounded-md cursor-pointer">Barfi</h1>
 
         <div className="flex items-center justify-center flex-row gap-3 md:gap-11 flex-wrap">
           {productsData.map((product, index) => (

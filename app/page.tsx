@@ -5,6 +5,8 @@ import {
   HeroSection,
   OurAgenda,
   OurPicks,
+  OurProducts,
+  OurValues,
 } from "@/components";
 
 export default function Home() {
@@ -12,6 +14,9 @@ export default function Home() {
     <>
       <HeroSection />
       <OurPicks />
+      <OurValues />
+
+<OurProducts />
       <FormSection />
       <ClientReviews />
       <OurAgenda />

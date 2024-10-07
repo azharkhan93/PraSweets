@@ -13,7 +13,7 @@ export default function MobileMenu() {
   };
 
   return (
-    <div className=" flex items-center justify-between w-full px-2" >
+    <div className=" flex items-center justify-between w-full px-2 py-4" >
       
    
       <Image

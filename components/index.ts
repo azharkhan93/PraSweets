@@ -8,4 +8,6 @@ export * from "./OurAgenda"
 export * from "./Form"
 export * from "./FormSection"
 export * from './OurPicks'
+export * from "./OurProducts"
+export * from "./OurValues"
 

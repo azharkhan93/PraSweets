@@ -1,4 +1,50 @@
+import ReimagineIcon from '/public/assets/svgs/clean.svg';
+import ReimagineIcon2 from '/public/assets/svgs/24.svg';
+import ReimagineIcon3 from '/public/assets/svgs/customer.svg';
+import { StaticImageData } from 'next/image'; 
+interface ValueItem {
+  icon: StaticImageData;
+  title: string;
+  description: string;
+}
 
+export const valuesData: ValueItem[] = [
+  {
+    icon: ReimagineIcon,
+    title: "1. Hygiene & Cleanliness",
+    description: "We ensure all tools and products meet the highest hygiene standards.",
+  },
+  {
+    icon: ReimagineIcon2,
+    title: "2. 24/7 Support",
+    description: "We're here for you anytime with seamless customer support.",
+  },
+  {
+    icon: ReimagineIcon3,
+    title: "3. Customer Satisfaction",
+    description: "We guarantee a smooth, satisfying experience from booking to final touch.",
+  }
+  
+];
+
+export const productsData = [
+  {
+    imageSrc: "/assets/images/1.jpg",
+    altText: "Product 1",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/2.jpg",
+    altText: "Product 2",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/3.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  
+];
 
 export type Testimonial = {
   name: string;
@@ -27,6 +73,10 @@ export const testimonials: Testimonial[] = [
     imageUrl: '/images/person/3.jpg',
   },
 ];
+
+
+
+
 
 
 

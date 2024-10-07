@@ -4,10 +4,16 @@ import { ProductCards } from "./ProductCards";
 
 export const OurPicks = () => {
   return (
-    <div className=" w-full flex items-center justify-center flex-row md:flex-col flex-wrap gap-6 ">
-      <div className="flex items-center justify-center flex-col py-11 gap-6">
-        <h1 className="text-4xl text-center text-black">Our Picks</h1>
-        <p className="text-lg text-center text-black">Check out our favorite items!</p>
+    <div className=" w-full flex items-center justify-center flex-row md:flex-col flex-wrap gap-6 py-10 ">
+      <div className="flex justify-center items-start md:items-center text-heading font-bold flex-col gap-4 w-full">
+        <h1 className="text-secondaryColor text-start md:text-center text-heading">
+          Why PraSweets?
+        </h1>
+        
+        <p className="text-paragraph text-start md:text-center text-secondaryColor md:w-[600px]">
+      At PraSweets, we are passionate about crafting delicious, high-quality sweets that satisfy your cravings and bring joy to every occasion. Our selection is made from the finest ingredients,
+  
+        </p>
       </div>
       <div className="w-full flex items-center justify-center flex-row gap-8 md:gap-6 flex-wrap py-10">
         {productData.map((product) => (

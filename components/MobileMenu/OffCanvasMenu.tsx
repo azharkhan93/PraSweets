@@ -36,14 +36,14 @@ export default function OffCanvasMenu({
           <Link href="/" className="hover:scale-[105%] hover:shadow-xl">
             Home
           </Link>
-          <Link href="/blog" className="hover:scale-[105%] hover:shadow-xl">
+          <Link href="#about" className="hover:scale-[105%] hover:shadow-xl">
             About
           </Link>
-          <Link href="/blog" className="hover:scale-[105%] hover:shadow-xl">
-            About
+          <Link href="#contact" className="hover:scale-[105%] hover:shadow-xl">
+            Contact
           </Link>
-          <Link href="/blog" className="hover:scale-[105%] hover:shadow-xl">
-            About
+          <Link href="#testimonials" className="hover:scale-[105%] hover:shadow-xl">
+            Testimonials
           </Link>
         </div>
         

@@ -32,11 +32,14 @@ export const HeroSection: React.FC = () => {
           <Link className="hover:scale-[110%]" href={"/"}>
             Home
           </Link>
-          <Link className="hover:scale-[110%]" href={"/about"}>
+          <Link className="hover:scale-[110%]" href={"#about"}>
             About
           </Link>
-          <Link className="hover:scale-[110%]" href={"/"}>
+          <Link className="hover:scale-[110%]" href={"#contact"}>
             Contact
+          </Link>
+          <Link className="hover:scale-[110%]" href={"#testimonials"}>
+            Testimonials
           </Link>
         </div>
         <div className="w-full md:hidden flex flex-row justify-start items-center">

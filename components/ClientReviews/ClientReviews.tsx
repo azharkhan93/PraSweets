@@ -10,7 +10,9 @@ import "swiper/css/navigation";
 
 export const ClientReviews: React.FC = () => {
   return (
-    <div className="w-ful flex items-center justify-center py-10">
+    <div
+    id="testimonials"
+     className="w-ful flex items-center justify-center py-10">
       <div className="w-full bg-white  ">
         <div className="flex justify-center items-start md:items-center text-heading flex-col gap-4 w-full px-4 py-10">
           <h1 className="text-secondaryColor text-start md:text-center text-heading">

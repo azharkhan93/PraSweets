@@ -4,7 +4,9 @@ import { CustomLinkButton } from "../CustomLinkButton";
 
 export const OurAgenda = () => {
   return (
-    <section className="overflow-hidden pt-4 md:pt-20 px-2 md:px-8 ">
+    <section 
+    id="about"
+    className="overflow-hidden pt-4 md:pt-20 px-2 md:px-8">
       <div className="flex flex-wrap items-center justify-between -mx-4 flex-col-reverse  md:flex-row">
         <div className="w-full px-4 lg:w-6/12">
           <div className="flex items-center -mx-3 sm:-mx-4">

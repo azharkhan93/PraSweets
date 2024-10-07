@@ -10,7 +10,7 @@ type ProductCardProps = {
 
 export const ProdCards: React.FC<ProductCardProps> = ({ imageSrc, altText, buttonText }) => {
   return (
-    <div className="relative rounded-md md:w-[244px] w-[180px] shadow-md shadow-black">
+    <div className="relative rounded-md md:w-[244px] w-[175px] shadow-md shadow-black">
       <Image
         src={imageSrc}
         alt={altText}

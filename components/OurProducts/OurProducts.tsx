@@ -3,16 +3,20 @@ import { ProdCards } from "./components/ProdCards";
 
 export const OurProducts: React.FC = () => {
   return (
-    <div className="w-full bg-white flex items-center justify-center py-5">
-      <div className="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-20 text-gray-800">
-        <div className="text-center flex flex-col items-center py-5 gap-5">
-          <h1 className="text-xl md:text-4xl font-bold text-gray-600 w-full">
-            What people are saying.
-          </h1>
-          <h3 className="text-xl mb-5 font-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </h3>
-        </div>
+    <div className="w-full bg-white flex items-center justify-center flex-col gap-8 py-10">
+      
+      <div className="flex justify-center items-start md:items-center text-heading font-bold flex-col gap-4 w-full px-4">
+        <h1 className="text-secondaryColor text-start md:text-center text-heading">
+        Craving For Authentic
+        BARFI
+        </h1>
+
+        <p className="text-paragraph text-start md:text-center text-secondaryColor md:w-[500px]">
+         {`Whether you prefer classic flavors or adventurous combinations, we have something for everyone. Celebrate life’s moments with our delightful Barfi!`}
+        </p>
+      </div>
+       
+        <h1 className="text-heading text-secondaryColor"></h1>
 
         <div className="flex items-center justify-center flex-row gap-3 md:gap-11 flex-wrap">
           {productsData.map((product, index) => (
@@ -25,6 +29,6 @@ export const OurProducts: React.FC = () => {
           ))}
         </div>
       </div>
-    </div>
+  
   );
 };

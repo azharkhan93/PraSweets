@@ -21,7 +21,7 @@ export const FormSection = () => {
         <div className="w-full flex flex-col md:flex-row justify-center items-center gap-3 md:gap-8 flex-wrap">
           {FormSectionData.map((data, index) => (
             <div className=" py-3 gap-3 " key={index}>
-              <h1 className="text-[24px] text-center text-thirdColor tracking-wide">
+              <h1 className="text-heading text-center text-secondaryColor tracking-wide">
                 {data.bedroom}
               </h1>
               <h1 className="text-[20px] text-center text-secondaryColor">
@@ -35,7 +35,7 @@ export const FormSection = () => {
             Follow Us On
           </h1>
 
-          <div className="text-[28px] text-center text-thirdColor tracking-wide flex gap-6">
+          <div className="text-[28px] text-center text-secondaryColor tracking-wide flex gap-6">
             <FaInstagram />
             <FaFacebook />
             <FaLinkedin />

@@ -31,7 +31,7 @@ export default function OffCanvasMenu({
             className="hover:animate-spin cursor-pointer w-[30px] h-[30px]"
           />
         </div>
-        <div className="w-full py-20 flex flex-col justify-start items-start gap-10 md:gap-10 text-xl md:text-3xl px-4">
+        <div className=" text-white w-full py-20 flex flex-col justify-start items-start gap-10 md:gap-10 text-xl md:text-3xl px-4">
           
           <Link href="/" className="hover:scale-[105%] hover:shadow-xl">
             Home

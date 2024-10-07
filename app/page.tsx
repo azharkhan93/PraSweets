@@ -14,12 +14,11 @@ export default function Home() {
     <>
       <HeroSection />
       <OurPicks />
-      <OurValues />
-
-<OurProducts />
-      <FormSection />
-      <ClientReviews />
+      <OurProducts />
       <OurAgenda />
+      <OurValues />
+      <ClientReviews />
+      <FormSection />
       <FooterSection />
     </>
   );

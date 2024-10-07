@@ -17,7 +17,7 @@ export const ProductCards: React.FC<ProductCardsProps> = ({ product }) => {
       />
       <div className="absolute inset-0 flex items-center justify-center top-[142px] md:top-[160px] w-full">
         <div className="bg-black bg-opacity-50 p-2 rounded w-full">
-          <p className="text-white text-center">{product.title}</p>
+          <p className="text-white text-center text-paragraph">{product.title}</p>
         </div>
       </div>
     </div>

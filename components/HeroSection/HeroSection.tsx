@@ -27,8 +27,8 @@ export const HeroSection: React.FC = () => {
             height={100}
           />
         </div>
-
-        <div className="hidden md:flex justify-center items-center md:h-[100px] gap-20 text-primaryColor text-[20px] w-full">
+        {/* Commentd for future release purpose */}
+        {/* <div className="hidden md:flex justify-center items-center md:h-[100px] gap-20 text-primaryColor text-[20px] w-full">
           <Link className="hover:scale-[110%]" href={"/"}>
             Home
           </Link>
@@ -41,10 +41,11 @@ export const HeroSection: React.FC = () => {
           <Link className="hover:scale-[110%]" href={"#testimonials"}>
             Testimonials
           </Link>
-        </div>
-        <div className="w-full md:hidden flex flex-row justify-start items-center">
+        </div> */}
+        {/* Commentd for future release purpose */}
+        {/* <div className="w-full md:hidden flex flex-row justify-start items-center">
           <MobileMenu />
-        </div>
+        </div> */}
       </div>
 
       <div className="w-full flex flex-col justify-center items-center z-20 py-10">

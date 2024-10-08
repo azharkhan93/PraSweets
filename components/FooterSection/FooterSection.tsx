@@ -14,7 +14,7 @@ export const FooterSection = () => {
           height={120}
         />
       </div>
-      <div className="w-full flex flex-col md:flex-row justify-center items-center md:justify-between gap-8 md:gap-2">
+      <div className="w-full flex flex-col md:flex-row justify-center items-center md:justify-between gap-8 md:gap-2 px-2 md:px-32">
         {FooterData.map((data, index) => (
           <div
             className="w-full md:w-[24%] flex flex-col items-center gap-4"

@@ -1,10 +1,10 @@
 import {
-  ClientReviews,
+  // ClientReviews,
   FooterSection,
   FormSection,
   HeroSection,
   OurAgenda,
-  OurPicks,
+  // OurPicks,
   OurProducts,
   OurValues,
 } from "@/components";
@@ -13,11 +13,12 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <OurPicks />
+      <OurValues />
+      {/* <OurPicks /> */}
       <OurProducts />
       <OurAgenda />
-      <OurValues />
-      <ClientReviews />
+      
+      {/* <ClientReviews /> */}
       <FormSection />
       <FooterSection />
     </>

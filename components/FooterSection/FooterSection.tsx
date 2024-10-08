@@ -2,11 +2,10 @@ import React from "react";
 import Image from "next/image";
 import { FooterData } from "@/constants";
 
-
 export const FooterSection = () => {
   return (
     <footer className="bg-secondaryColor text-white flex flex-col gap-5 md:gap-10 py-10">
-      <div className="flex items-center justify-center" >
+      <div className="flex items-center justify-center">
         <Image
           src="/assets/images/logo3.png"
           alt="Logo"

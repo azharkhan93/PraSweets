@@ -7,17 +7,24 @@ import { useState } from "react";
 import { FaCheck } from "react-icons/fa";
 import { theme } from "@/theme";
 
-
 const FormSchema = Yup.object().shape({
   name: Yup.string().required("Required"),
   email: Yup.string().email("Invalid Email").required("Required"),
   phone_number: Yup.string()
     .min(10, "Please enter 10 digits")
     .required("Required"),
+  amount: Yup.number().required("Amount is required").positive("Amount must be positive"),
 });
 
 export const Form = () => {
   const [dataSent, setDataSent] = useState(false);
+
+  const handleKeyDown: React.KeyboardEventHandler<HTMLInputElement> = (e) => {
+    const allowedKeys = ["Backspace", "ArrowLeft", "ArrowRight", "Tab", "Delete"];
+    if (!/[0-9]/.test(e.key) && !allowedKeys.includes(e.key)) {
+      e.preventDefault();
+    }
+  };
 
   return (
     <div className="bg-secondaryColor py-5 flex flex-col justify-center w-full h-full gap-8 rounded-2xl">
@@ -27,10 +34,11 @@ export const Form = () => {
           email: "",
           phone_number: "",
           message: "",
+          amount: "",
         }}
         validationSchema={FormSchema}
-        onSubmit={async (values, { setSubmitting }) => {
-          const request = await fetch("/api/hello", {
+        onSubmit={async (values, { setSubmitting, resetForm }) => {
+          const request = await fetch("/api/sendemail", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(values),
@@ -38,6 +46,7 @@ export const Form = () => {
           const response = await request.json();
           if (response.sent === true) {
             setDataSent(true);
+            resetForm(); 
           }
           setSubmitting(false);
         }}
@@ -60,9 +69,7 @@ export const Form = () => {
                 handleChange={handleChange}
                 value={values.name}
                 errorBox={errors.name && touched.name ? true : false}
-                errorText={
-                  errors.name && touched.name ? `${errors.name}` : null
-                }
+                errorText={errors.name && touched.name ? `${errors.name}` : null}
               />
               <InputBox
                 label={"Phone Number"}
@@ -71,9 +78,7 @@ export const Form = () => {
                 name={"phone_number"}
                 handleChange={handleChange}
                 value={values.phone_number}
-                errorBox={
-                  errors.phone_number && touched.phone_number ? true : false
-                }
+                errorBox={errors.phone_number && touched.phone_number ? true : false}
                 errorText={
                   errors.phone_number && touched.phone_number
                     ? `${errors.phone_number}`
@@ -88,9 +93,7 @@ export const Form = () => {
                 handleChange={handleChange}
                 value={values.email}
                 errorBox={errors.email && touched.email ? true : false}
-                errorText={
-                  errors.email && touched.email ? `${errors.email}` : null
-                }
+                errorText={errors.email && touched.email ? `${errors.email}` : null}
               />
               <InputBox
                 label={"Message"}
@@ -101,6 +104,20 @@ export const Form = () => {
                 value={values.message}
                 errorBox={false}
                 errorText={false}
+              />
+              <InputBox
+                label={"Unit"}
+                placeHolder={"Enter in Kgs & 1kg equals To 1 pound"}
+                type={"text"}
+                name={"amount"}
+                handleChange={handleChange}
+                value={values.amount}
+                errorBox={errors.amount && touched.amount ? true : false}
+                errorText={
+                  errors.amount && touched.amount ? `${errors.amount}` : null
+                }
+                onKeyDown={handleKeyDown} 
+               
               />
             </div>
 
@@ -135,3 +152,4 @@ export const Form = () => {
     </div>
   );
 };
+

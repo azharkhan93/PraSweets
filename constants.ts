@@ -91,8 +91,8 @@ export const testimonials: Testimonial[] = [
 
 
 export const FormSectionData = [
-  { bedroom: "Phone:", bua: "91 669969060" },
-  { bedroom: "Email", bua: "ajkkjdjhs@gmail.com" },
+  { bedroom: "Phone:", bua: "91 8056204630" },
+  { bedroom: "Email", bua: "prasweets24@gmail.com" },
   { bedroom: "Location", bua: "street 15, chennai India" },
 ];
 
@@ -104,14 +104,14 @@ export const FooterData = [
   },
   {
     heading: "Contact",
-    line1: "jdkjhdjh123@gmail.com",
-    line2: "+91 8898978r8",
+    line1: "prasweets24@gmail.com",
+    line2: "91 8056204630",
   },
-  {
-    heading: "Navigation",
-    line1: "Home",
-    line2: "About",
-  },
+  // {
+  //   heading: "Navigation",
+  //   line1: "Home",
+  //   line2: "About",
+  // },
   {
     heading: "Location",
     line1: "District 11, Chennai, India",

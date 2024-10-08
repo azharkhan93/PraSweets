@@ -1,5 +1,4 @@
 import { ChangeEventHandler, ReactNode } from "react";
-
 type InputBoxProps = {
   label: string;
   placeHolder: string;
@@ -9,6 +8,7 @@ type InputBoxProps = {
   value: string | number;
   errorBox: boolean;
   errorText: string | ReactNode;
+  onKeyDown?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
 };
 
 export const InputBox: React.FC<InputBoxProps> = ({
@@ -20,10 +20,11 @@ export const InputBox: React.FC<InputBoxProps> = ({
   value,
   errorBox,
   errorText,
+  onKeyDown,
 }) => {
   return (
-    <div className="flex flex-col items-start justify-center gap-2  p-2 rounded-lg z-20 w-full">
-      <div className="flex flex-row justify-between  w-full">
+    <div className="flex flex-col items-start justify-center gap-2 p-2 rounded-lg z-20 w-full">
+      <div className="flex flex-row justify-between w-full">
         <div className="flex justify-center items-center h-[30px]">
           <p
             className={`bg-transparent w-fit rounded-lg text-s md:text-base font-bold text-white tracking-wide px-3`}
@@ -44,9 +45,11 @@ export const InputBox: React.FC<InputBoxProps> = ({
         onChange={handleChange}
         value={value}
         placeholder={placeHolder}
+        onKeyDown={onKeyDown}
         className={`px-3 h-[30px] outline-none w-full bg-transparent placeholder-white`}
       />
       <div className="border-b-[1px] border-[#D9D9D9]/30 w-full"></div>
     </div>
   );
 };
+

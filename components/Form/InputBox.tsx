@@ -27,7 +27,7 @@ export const InputBox: React.FC<InputBoxProps> = ({
       <div className="flex flex-row justify-between w-full">
         <div className="flex justify-center items-center h-[30px]">
           <p
-            className={`bg-transparent w-fit rounded-lg text-s md:text-base font-bold text-white tracking-wide px-3`}
+            className="bg-transparent w-fit rounded-lg text-s md:text-base font-bold text-white tracking-wide px-3"
           >
             {label}
           </p>
@@ -46,9 +46,9 @@ export const InputBox: React.FC<InputBoxProps> = ({
         value={value}
         placeholder={placeHolder}
         onKeyDown={onKeyDown}
-        className={`px-3 h-[30px] outline-none w-full bg-transparent placeholder:text-slate-50`}
+        className={`px-3 h-[30px] outline-none w-full bg-transparent placeholder-white`}
       />
-      <div className="border-b-[1px] border-[#D9D9D9]/30 w-full"></div>
+      <div className="border-b-[1px] border-white/90 w-full"></div>
     </div>
   );
 };

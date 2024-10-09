@@ -1,6 +1,4 @@
 import { CustomLinkButton } from "..";
-import MobileMenu from "../MobileMenu/mobileMenu";
-import Link from "next/link";
 import Image from "next/image";
 
 export const HeroSection: React.FC = () => {
@@ -38,12 +36,11 @@ export const HeroSection: React.FC = () => {
           <Link className="hover:scale-[110%]" href={"#contact"}>
             Contact
           </Link>
-          <Link className="hover:scale-[110%]" href={"#testimonials"}>
+          {/* <Link className="hover:scale-[110%]" href={"#testimonials"}>
             Testimonials
           </Link>
-        </div> */}
-        {/* Commentd for future release purpose */}
-        {/* <div className="w-full md:hidden flex flex-row justify-start items-center">
+        </div>
+        <div className="w-full md:hidden flex flex-row justify-start items-center">
           <MobileMenu />
         </div> */}
       </div>
@@ -58,12 +55,14 @@ export const HeroSection: React.FC = () => {
             and care to tantalize your taste buds. Perfect for every occasion!
           </p>
           <div className="w-full flex justify-center rounded-md">
-            <CustomLinkButton
+         
+          <CustomLinkButton
               label="Enquire Now"
               href="form-section"
               classes="bg-secondaryColor"
               border="noBorder"
             />
+         
           </div>
         </div>
       </div>

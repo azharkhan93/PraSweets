@@ -2,16 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0 0px transparent  !important; 
+  -webkit-text-fill-color: #701E24 !important; 
+  color: #701E24 !important; 
+}
+
+
 @font-face {
   font-family: 'Spectral SC';
-  src: url('/assets/fonts/SpectralSC-ExtraBold.ttf') format('truetype');
+  src: url('/public/assets/fonts/SpectralSC-ExtraBold.ttf') format('truetype');
   font-weight: 800; 
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Spectral SC';
-  src: url('/assets/fonts/SpectralSC-Bold.ttf') format('truetype');
+  src: url('/public/assets/fonts/SpectralSC-Bold.ttf') format('truetype');
   font-weight: 700; 
   font-style: normal;
 
@@ -20,14 +32,14 @@
 
 @font-face {
   font-family: 'Spectral SC';
-  src: url('/assets/fonts/SpectralSC-Medium.ttf') format('truetype');
+  src: url('/public/assets/fonts/SpectralSC-Medium.ttf') format('truetype');
   font-weight: 400; 
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Spectral SC';
-  src: url('/assets/fonts/SpectralSC-Regular.ttf') format('truetype');
+  src: url('/public/assets/fonts/SpectralSC-Regular.ttf') format('truetype');
   font-weight: 300; 
   font-style: normal;
 }

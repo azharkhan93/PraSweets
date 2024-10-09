@@ -6,8 +6,8 @@ import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 export const FormSection = () => {
   return (
     <div
-      className="w-full flex flex-col-reverse md:flex-row justify-center gap-10 md:gap-11 py-10 bg-white"
-      id="contact"
+      className="w-full flex flex-col-reverse md:flex-row justify-center gap-10 md:gap-11 py-10"
+      id="form-section"
     >
       <div className="w-full md:w-[50%] flex flex-col gap-8 reveal reveal-from-left">
         <div className="w-full h-[32%]  flex-row justify-center items-center hidden md:flex">

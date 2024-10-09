@@ -1,7 +1,7 @@
 import ReimagineIcon from '/public/assets/svgs/clean.svg';
 import ReimagineIcon2 from '/public/assets/svgs/24.svg';
 import ReimagineIcon3 from '/public/assets/svgs/customer.svg';
-import { StaticImageData } from 'next/image'; 
+import { StaticImageData } from 'next/image';
 interface ValueItem {
   icon: StaticImageData;
   title: string;
@@ -24,7 +24,7 @@ export const valuesData: ValueItem[] = [
     title: "3. Customer Satisfaction",
     description: "We guarantee a smooth, satisfying experience from booking to final touch.",
   }
-  
+
 ];
 
 export const productsData = [
@@ -43,14 +43,14 @@ export const productsData = [
     altText: "Product 3",
     buttonText: "Book Now",
   },
-  
+
 ];
 
 export type Testimonial = {
   name: string;
   username: string;
   testimonial: string;
-  imageUrl: string; 
+  imageUrl: string;
 }
 
 export const testimonials: Testimonial[] = [
@@ -93,14 +93,15 @@ export const testimonials: Testimonial[] = [
 export const FormSectionData = [
   { bedroom: "Phone:", bua: "91 8056204630" },
   { bedroom: "Email", bua: "prasweets24@gmail.com" },
-  { bedroom: "Location", bua: "street 15, chennai India" },
+  // { bedroom: "Location", bua: "street 15, chennai India" },
 ];
 
 export const FooterData = [
   {
     heading: "About Company",
-    line1: "we are the one of the renoweed and weell know name in the industry over the past years",
-    
+    line1: `At PraSweets, we are passionate about crafting delicious, high-quality
+          sweets that satisfy your cravings and bring joy to every occasion. Our
+          selection is made from the finest ingredients.`,
   },
   {
     heading: "Contact",
@@ -114,8 +115,8 @@ export const FooterData = [
   // },
   {
     heading: "Location",
-    line1: "District 11, Chennai, India",
-    line2: "kldkljkdkjkd, India",
+    line1: "Chennai",
+    line2: "India",
   },
 ];
 
@@ -160,7 +161,7 @@ export const ArticleTestData = [
 export const testimonialsData = [
   {
     name: 'Mr Krishna',
-    image: '/assets/images/ai32.jpg', 
+    image: '/assets/images/ai32.jpg',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel!',
   },
   {
@@ -170,7 +171,7 @@ export const testimonialsData = [
   },
   {
     name: 'Mr Krishna',
-    image: '/assets/images/ai32.jpg', 
+    image: '/assets/images/ai32.jpg',
     text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti.',
   },
   {
@@ -180,7 +181,7 @@ export const testimonialsData = [
   },
   {
     name: 'Mr Krishna',
-    image: '/assets/images/ai32.jpg', 
+    image: '/assets/images/ai32.jpg',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta quibusdam sunt.',
   },
   {

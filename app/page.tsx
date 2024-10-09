@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <OurValues />
+      {/* <OurValues /> */}
       {/* <OurPicks /> */}
       <OurProducts />
-      <OurAgenda />
+      {/* <OurAgenda /> */}
       
       {/* <ClientReviews /> */}
       <FormSection />

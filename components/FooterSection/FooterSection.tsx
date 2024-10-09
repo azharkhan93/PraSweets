@@ -16,16 +16,16 @@ export const FooterSection = () => {
       <div className="w-full flex flex-col md:flex-row justify-center items-center md:justify-between gap-8 md:gap-2 px-2 md:px-32">
         {FooterData.map((data, index) => (
           <div
-            className="w-full md:w-[24%] flex flex-col items-center gap-4"
+            className="w-full md:w-[24%] flex flex-col items-center gap-2"
             key={index}
           >
             <h1 className="text-primaryColor text-xl font-bold tracking-wide mb-2 text-center">
               {data.heading}
             </h1>
-            <p className="text-primaryColor  text-lg tracking-wide text-center">
+            <p className="text-primaryColor  text-md tracking-wide text-center">
               {data.line1}
             </p>
-            <p className="text-primaryColor text-lg tracking-wide mb-2 text-center">
+            <p className="text-primaryColor text-md tracking-wide mb-2 text-center">
               {data.line2}
             </p>
           </div>

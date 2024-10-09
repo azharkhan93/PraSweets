@@ -12,7 +12,7 @@ export const OurValues = () => {
         <p className="text-paragraph text-start md:text-center text-secondaryColor md:w-[600px]">
           At PraSweets, we are passionate about crafting delicious, high-quality
           sweets that satisfy your cravings and bring joy to every occasion. Our
-          selection is made from the finest ingredients,
+          selection is made from the finest ingredients.
         </p>
       </div>
 

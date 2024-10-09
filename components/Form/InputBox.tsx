@@ -46,10 +46,23 @@ export const InputBox: React.FC<InputBoxProps> = ({
         value={value}
         placeholder={placeHolder}
         onKeyDown={onKeyDown}
-        className={`px-3 h-[30px] outline-none w-full bg-transparent placeholder-white`}
+        className={`px-3 h-[30px] outline-none w-full bg-transparent placeholder-white text-white
+         `
+          
+        }
       />
       <div className="border-b-[1px] border-white/90 w-full"></div>
     </div>
   );
 };
+
+<style>
+  {`
+    input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px rgba(34, 197, 94, 0.5) inset; 
+      box-shadow: 0 0 0 30px rgba(34, 197, 94, 0.5) inset; 
+      transition: background-color 5000s ease-in-out 0s;
+    }
+  `}
+</style>
 

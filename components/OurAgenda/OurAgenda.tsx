@@ -6,46 +6,22 @@ export const OurAgenda = () => {
   return (
     <section 
     id="about"
-    className="overflow-hidden pt-4 md:pt-20 px-2 md:px-8">
+    className="overflow-hidden pt-4 md:pt-20 md:px-8 py-10">
       <div className="flex flex-wrap items-center justify-between -mx-4 flex-col-reverse  md:flex-row">
-        <div className="w-full px-4 lg:w-6/12">
-          <div className="flex items-center -mx-3 sm:-mx-4">
-            <div className="w-full px-3 sm:px-4 xl:w-1/2">
-              <div className="py-3 sm:py-4">
-                <Image
-                  src="/assets/images/ai32.jpg"
-                  alt="Image 1"
-                  width={500}
-                  height={500}
-                  className="w-full rounded-2xl"
-                />
-              </div>
+        <div className="w-[590px] px-4 hidden md:flex ">
               <div className="py-3 sm:py-4">
                 <Image
                   src="/assets/images/ai32.jpg"
                   alt="Image 2"
                   width={500}
-                  height={500}
+                  height={350}
                   className="w-full rounded-2xl"
                 />
               </div>
-            </div>
-            <div className="w-full px-3 sm:px-4 xl:w-1/2">
-              <div className="relative z-10 my-4">
-                <Image
-                  src="/assets/images/ai32.jpg"
-                  alt="Image 3"
-                  width={500}
-                  height={500}
-                  className="w-full rounded-2xl"
-                />
-              </div>
-            </div>
-          </div>
         </div>
 
-        <div className="w-full px-4  md:w-5/12">
-          <div className="mt-10 md:mt-0">
+        <div className="w-full px-4  md:w-[680px]">
+          <div className="mt-10 md:mt-0 px-4">
             <span className="block mb-4 text-lg font-semibold text-secondaryColor">
               Why Choose Us
             </span>

@@ -46,7 +46,7 @@ export const InputBox: React.FC<InputBoxProps> = ({
         value={value}
         placeholder={placeHolder}
         onKeyDown={onKeyDown}
-        className={`px-3 h-[30px] outline-none w-full bg-transparent placeholder-white`}
+        className={`px-3 h-[30px] outline-none w-full bg-transparent placeholder:text-slate-50`}
       />
       <div className="border-b-[1px] border-[#D9D9D9]/30 w-full"></div>
     </div>

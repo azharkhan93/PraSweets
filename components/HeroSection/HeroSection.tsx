@@ -16,12 +16,12 @@ export const HeroSection: React.FC = () => {
       </video>
       <div className="absolute top-0 left-0 w-full h-full bg-black/60 bg-opacity-50 z-10" />
 
-      <div className="absolute top-0 left-0 w-full flex justify-between items-center z-30 py-1 ">
-        <div className="hidden md:flex">
+      <div className="absolute top-0 left-0 w-full flex justify-center items-center z-30 py-3 " >
+        <div className="">
           <Image
             src="/assets/images/logo3.png"
             alt="Logo"
-            width={170}
+            width={180}
             height={100}
           />
         </div>

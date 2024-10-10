@@ -9,7 +9,7 @@ export const FormSection = () => {
       className="w-full flex flex-col-reverse md:flex-row justify-center gap-10 md:gap-11 py-10"
       id="form-section"
     >
-      <div className="w-full md:w-[50%] flex flex-col gap-8 reveal reveal-from-left">
+      <div className="w-full md:w-[50%] flex flex-col gap-8">
         <div className="w-full h-[32%]  flex-row justify-center items-center hidden md:flex">
           <Image
             src={"/assets/images/logo3.png"}
@@ -42,7 +42,7 @@ export const FormSection = () => {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-[40%] md:px-[2%] reveal reveal-from-right px-3">
+      <div className="w-full md:w-[40%] md:px-[2%] px-3">
         <Form />
       </div>
     </div>

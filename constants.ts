@@ -90,7 +90,7 @@ export const FooterData = [
   {
     heading: "Contact",
     line1: "prasweets24@gmail.com",
-    line2: "91 8056204630",
+    line2: "+91 8056204630",
   },
   // {
   //   heading: "Navigation",

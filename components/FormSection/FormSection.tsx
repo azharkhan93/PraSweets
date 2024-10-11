@@ -24,7 +24,7 @@ export const FormSection = () => {
               <h1 className="text-subHeading  text-center text-secondaryColor tracking-wide">
                 {data.bedroom}
               </h1>
-              <h1 className="text-subHeading  text-center text-secondaryColor">
+              <h1 className="text-md  text-center text-secondaryColor">
                 {data.bua}
               </h1>
             </div>
@@ -35,7 +35,7 @@ export const FormSection = () => {
             Follow Us On
           </h1>
 
-          <div className="text-[28px] text-center text-secondaryColor tracking-wide flex gap-6">
+          <div className="text-[21px] text-center text-secondaryColor tracking-wide flex gap-6">
             <FaInstagram />
             <FaFacebook />
             <FaLinkedin />

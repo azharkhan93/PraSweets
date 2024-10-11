@@ -74,24 +74,8 @@ export const testimonials: Testimonial[] = [
   },
 ];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const FormSectionData = [
-  { bedroom: "Phone:", bua: "91 8056204630" },
+  { bedroom: "Phone:", bua: "+91 8056204630" },
   { bedroom: "Email", bua: "prasweets24@gmail.com" },
   // { bedroom: "Location", bua: "street 15, chennai India" },
 ];
@@ -190,8 +174,6 @@ export const testimonialsData = [
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!',
   },
 ];
-
-
 
 export type Product = {
   id: number;

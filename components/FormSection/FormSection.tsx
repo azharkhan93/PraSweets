@@ -36,7 +36,7 @@ export const FormSection = () => {
           </h1>
 
           <div className="text-[21px] text-center text-secondaryColor tracking-wide flex gap-6">
-            <FaInstagram />
+            <a href="https://www.instagram.com/prasweets/profilecard/?igsh=MWc2MjN3cWwyeDVucw==" target="_blank"><FaInstagram /></a>
             <FaFacebook />
             <FaLinkedin />
           </div>

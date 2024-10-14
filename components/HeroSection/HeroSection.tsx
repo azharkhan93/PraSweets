@@ -21,8 +21,8 @@ export const HeroSection: React.FC = () => {
           <Image
             src="/assets/images/logo3.png"
             alt="Logo"
-            width={180}
-            height={100}
+            width={280}
+            height={200}
           />
         </div>
         {/* Commentd for future release purpose */}

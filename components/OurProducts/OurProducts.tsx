@@ -14,8 +14,8 @@ export const OurProducts: React.FC = () => {
         </p>
       </div>
 
-      <h1 className=" text-subHeading md:text-heading text-white bg-black w-[200px] text-center rounded-md cursor-pointer">
-        Barfi
+      <h1 className="text-subHeading md:text-heading text-white bg-black text-center rounded-md cursor-pointer px-4">
+        <a href="/assets/images/NutritionalValues.pdf" target="_blank">Download Fact Sheet</a>
       </h1>
 
       <div className="flex items-center justify-center flex-row gap-3 md:gap-11 flex-wrap">

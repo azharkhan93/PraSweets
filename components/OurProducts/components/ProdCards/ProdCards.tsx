@@ -19,7 +19,9 @@ export const ProdCards: React.FC<ProductCardProps> = ({ imageSrc, altText, butto
        
       />
       <div className="absolute bottom-[0px]  left-0 right-0 text-center bg-black/60 py-1 rounded cursor-pointer overflow-hidden w-full">
-        <p className="text-white">{buttonText}</p>
+        <a href="https://mybillbook.in/store/pra_sweets" target="_blank">
+          <p className="text-white">{buttonText}</p>
+        </a>
       </div>
     </div>
   );

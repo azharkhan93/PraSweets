@@ -99,7 +99,7 @@ export const FooterData = [
   // },
   {
     heading: "Location",
-    line1: "Chennai",
+    line1: "The Hive, Madras House, No 44 Pillaiyar Koil Street, Jawaharlal Nehru Salai, Anna Nagar, Chennai 600040",
     line2: "India",
   },
 ];

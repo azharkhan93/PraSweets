@@ -105,7 +105,7 @@ export const Form = () => {
                 errorBox={false}
                 errorText={false}
               />
-              <InputBox
+              {/* <InputBox
                 label={"Unit"}
                 placeHolder={"Enter in Kgs & 1kg equals To 1 pound"}
                 type={"text"}
@@ -118,7 +118,7 @@ export const Form = () => {
                 }
                 onKeyDown={handleKeyDown} 
                
-              />
+              /> */}
             </div>
 
             <div className="flex flex-row items-center gap-5 p-1">
@@ -128,7 +128,7 @@ export const Form = () => {
                   disabled={isSubmitting}
                   className="text-white border-white border-[2px] rounded-md px-4 py-2 flex items-center gap-2 ml-3"
                 >
-                  {"SUBMIT "}
+                  {"Submit"}
                 </button>
               )}
               {isSubmitting ? (

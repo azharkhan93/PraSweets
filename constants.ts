@@ -43,6 +43,152 @@ export const productsData = [
     altText: "Product 3",
     buttonText: "Book Now",
   },
+ 
+  {
+    imageSrc: "/assets/images/customer/p2.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p3.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p4.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p5.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p1.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p6.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p7.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p8.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p9.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p10.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p11.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p12.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p13.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p14.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p15.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p16.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p17.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p18.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p19.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p20.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p21.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p22.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p23.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p24.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p25.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p26.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p27.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p28.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
+  {
+    imageSrc: "/assets/images/customer/p29.jpg",
+    altText: "Product 3",
+    buttonText: "Book Now",
+  },
 
 ];
 

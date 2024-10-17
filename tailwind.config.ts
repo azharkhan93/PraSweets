@@ -10,11 +10,14 @@ const config: Config = {
 
   theme: {
     extend: {
+      
       colors: theme.colors,
       fontSize: 
         theme.font
     
     },
+   
+    
   },
 
   plugins: [],

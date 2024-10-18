@@ -43,9 +43,9 @@ export const OurProducts: React.FC = () => {
         </p>
       </div>
 
-      <h1 className="text-subHeading md:text-heading text-white bg-black text-center rounded-md cursor-pointer px-4">
+      <h1 className="text-lg text-white bg-secondaryColor text-center rounded-md cursor-pointer px-4 py-2">
         <a href="/assets/images/NutritionalValues.pdf" target="_blank" rel="noopener noreferrer">
-          Download Fact Sheet
+          Download Nutritional Facts
         </a>
       </h1>
 

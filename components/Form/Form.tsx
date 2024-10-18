@@ -9,11 +9,11 @@ import { theme } from "@/theme";
 
 const FormSchema = Yup.object().shape({
   name: Yup.string().required("Required"),
-  email: Yup.string().email("Invalid Email").required("Required"),
+  email: Yup.string().email("Invalid Email"),
+  message: Yup.string(),
   phone_number: Yup.string()
     .min(10, "Please enter 10 digits")
     .required("Required"),
-  amount: Yup.number().required("Amount is required").positive("Amount must be positive"),
 });
 
 export const Form = () => {
@@ -33,8 +33,7 @@ export const Form = () => {
           name: "",
           email: "",
           phone_number: "",
-          message: "",
-          amount: "",
+          message: ""
         }}
         validationSchema={FormSchema}
         onSubmit={async (values, { setSubmitting, resetForm }) => {
@@ -104,20 +103,6 @@ export const Form = () => {
                 value={values.message}
                 errorBox={false}
                 errorText={false}
-              />
-              <InputBox
-                label={"Unit"}
-                placeHolder={"Enter in Kgs & 1kg equals To 1 pound"}
-                type={"text"}
-                name={"amount"}
-                handleChange={handleChange}
-                value={values.amount}
-                errorBox={errors.amount && touched.amount ? true : false}
-                errorText={
-                  errors.amount && touched.amount ? `${errors.amount}` : null
-                }
-                onKeyDown={handleKeyDown} 
-               
               />
             </div>
 

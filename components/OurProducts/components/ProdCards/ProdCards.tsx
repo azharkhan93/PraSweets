@@ -14,7 +14,7 @@ export const ProdCards: React.FC<ProductCardProps> = ({
   buttonText,
 }) => {
   return (
-    <div className="relative rounded-md md:w-[245px] w-[250px] h-[370px] shadow-sm shadow-black flex items-center justify-center ">
+    <div className="relative rounded-md md:w-[245px] w-[250px] h-[370px] border border-gray-200 flex items-center justify-center ">
       <Image
         src={imageSrc}
         alt={altText}

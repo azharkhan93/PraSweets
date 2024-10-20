@@ -18,14 +18,6 @@ const FormSchema = Yup.object().shape({
 
 export const Form = () => {
   const [dataSent, setDataSent] = useState(false);
-
-  const handleKeyDown: React.KeyboardEventHandler<HTMLInputElement> = (e) => {
-    const allowedKeys = ["Backspace", "ArrowLeft", "ArrowRight", "Tab", "Delete"];
-    if (!/[0-9]/.test(e.key) && !allowedKeys.includes(e.key)) {
-      e.preventDefault();
-    }
-  };
-
   return (
     <div className="bg-secondaryColor py-5 flex flex-col justify-center w-full h-full gap-8 rounded-2xl">
       <Formik
@@ -45,7 +37,7 @@ export const Form = () => {
           const response = await request.json();
           if (response.sent === true) {
             setDataSent(true);
-            resetForm(); 
+            resetForm();
           }
           setSubmitting(false);
         }}

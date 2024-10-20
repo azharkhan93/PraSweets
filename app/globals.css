@@ -8,8 +8,12 @@
   box-shadow: 0 0 0 30px transparent inset;
   -webkit-text-fill-color: white;
 }
-
 @font-face {
+  font-family: "Lucida Grande";
+  src: url("../public/assets/fonts/LucidaGrande.ttf") format('truetype');
+  font-style: normal;
+}
+/* @font-face {
   font-family: 'Spectral SC';
   src: url('/public/assets/fonts/SpectralSC-ExtraBold.ttf') format('truetype');
   font-weight: 800; 
@@ -37,11 +41,10 @@
   src: url('/public/assets/fonts/SpectralSC-Regular.ttf') format('truetype');
   font-weight: 300; 
   font-style: normal;
-}
+} */
 
 * {
-  font-family: "Spectral SC", serif; 
-  font-weight: 400; 
+  font-family: "Lucida Grande", serif;
   font-style: normal;
   overflow-x: hidden;
 }
@@ -52,7 +55,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
-h1 {
+/* h1 {
   font-family: 'Spectral SC', serif;
   font-weight: 600; 
   overflow-x: hidden;
@@ -69,7 +72,7 @@ p {
   font-weight: 300; 
   line-height: 1.5;
   overflow-x: hidden;
-}
+} */
 
 .swiper {
   height: 100% !important;

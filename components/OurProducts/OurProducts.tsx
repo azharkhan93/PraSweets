@@ -23,7 +23,7 @@ export const OurProducts: React.FC = () => {
           display: flex;
           gap: 30px; 
           width: calc((250px + 30px) * ${productsData.length});
-          animation: slide 50s linear infinite;
+          animation: slide 200s linear infinite;
         }
         .slide {
           width: 250px; 

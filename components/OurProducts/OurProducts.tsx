@@ -33,7 +33,7 @@ export const OurProducts: React.FC = () => {
         }
       `}</style>
 
-      <div className="flex justify-center items-start md:items-center text-heading font-bold flex-col gap-4 w-full px-4">
+      <div className="flex justify-center items-center text-heading font-bold flex-col gap-4 w-full px-4">
         <h1 className="text-secondaryColor text-center text-heading">
           Craving For Authentic BARFI
         </h1>
